@@ -107,7 +107,7 @@ h1{
     width: 100%;
   }
   
-  @media screen and (max-height: 600px) {
+  @media screen and (min-height: 480px) {
     .sidenavbar {
       padding-top: 12px;
     }
