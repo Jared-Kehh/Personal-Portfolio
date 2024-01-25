@@ -107,7 +107,7 @@ h1{
     width: 100%;
   }
   
-  @media screen and (max-height: 720px) {
+  @media screen and (max-width: 500px) {
     .sidenavbar {
       padding-top: 12px;
     }
@@ -116,5 +116,11 @@ h1{
     }
     .imgofJared{
       width: 350px;
+    }
+    .AboutMe{
+      display: grid;
+      text-align: center;
+      grid-template-columns: 0.5fr 1fr 0.5fr;
+      grid-template-rows: 1fr;
     }
   }
