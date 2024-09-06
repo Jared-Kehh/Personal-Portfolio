@@ -11,8 +11,8 @@ body{
 .Me{
   display: grid;
   text-align: center;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .AboutMe{
@@ -35,16 +35,24 @@ body{
 
 .imgofJared{
   grid-column: 2;
-  grid-row: 2;
+  grid-row: 1 / 22;
   margin-left: auto;
   margin-right: auto;
   width: 85%;
   filter: drop-shadow(10px 10px 10px);
 }
 
-h1{
-  grid-column: 2;
+.intro{
+  grid-column: 1;
   grid-row: 1;
+  font-size: 70px;
+  padding-top: 250px;
+}
+
+h3{
+  grid-column: 1;
+  grid-row: 2;
+  font-size: 100px;
 }
 
 .sidenavbar {
